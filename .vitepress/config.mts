@@ -7,6 +7,7 @@ export default defineConfig({
   description: "无笔记不学习，无复习不学习",
   head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
   cleanUrls: true,
+  outDir: './docs/.vitepress/dist',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
