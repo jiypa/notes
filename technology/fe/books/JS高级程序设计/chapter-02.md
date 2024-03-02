@@ -15,7 +15,9 @@
 
 ::: tip 注意
 
-- `defer` 与 `async` 的区别：`defer` 可保证脚本依次按序执行，而 `async` 不能保证。
+- `defer` 与 `async` 的区别：
+  - `defer` 下载完成后推迟执行，而 `async` 下载完成后立即执行。
+  - `defer` 可保证脚本依次按序执行，而 `async` 不能保证。
 - `integrity` 属性存在兼容性问题。
 
 :::
@@ -42,7 +44,7 @@
 
 ## `<noscript>` 元素
 
-为不支持或禁用了 JS 的浏览器提供替代内容。`<noscript>` 标签中可包含除 `<script>` 标签外能够出现在 `<body>` 标签中的任何标签。示例代码：
+为不支持或禁用了 JS 的浏览器提供替代内容。`<noscript>` 标签可包含除 `<script>` 标签外能够出现在 `<body>` 标签中的任何标签。示例代码：
 
 ```html
 <!DOCTYPE html>
