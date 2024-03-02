@@ -60,7 +60,8 @@ export default defineConfig({
 });
 
 function sidebarFrontEnd(): DefaultTheme.SidebarItem[] {
-  const baseUrl = '/technology/fe/books/JS高级程序设计';
+  const baseUrlOfBooks = '/technology/fe/books';
+  const baseUrlOfArticles = '/technology/fe/articles';
   const chapters = [
     '01. 什么是 JS',
     '02. HTML 中的 JS',
@@ -104,7 +105,7 @@ function sidebarFrontEnd(): DefaultTheme.SidebarItem[] {
               text: 'JS高级程序设计',
               collapsed: true,
               items: chapters.map((chapter, index) => {
-                return { text: chapter, link: `${baseUrl}/chapter-${index < 9 ? `0${index + 1}` : index + 1}` };
+                return { text: chapter, link: `${baseUrlOfBooks}/JS高级程序设计/chapter-${index < 9 ? `0${index + 1}` : index + 1}` };
               }),
             },
           ],
@@ -119,8 +120,8 @@ function sidebarFrontEnd(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           items: [
             {
-              text: '大前端面试宝典 - 哲玄',
-              link: '',
+              text: '大前端面试宝典',
+              link: `${baseUrlOfArticles}/大前端面试宝典`,
             },
           ],
         },
