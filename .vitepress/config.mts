@@ -19,7 +19,7 @@ export default defineConfig({
         items: [
           { text: '前端', link: '/technology/fe/' },
           { text: '后端', link: '/technology/be/' },
-        ]
+        ],
       },
     ],
 
@@ -38,17 +38,26 @@ export default defineConfig({
     },
 
     search: {
-      provider: 'local'
+      provider: 'local',
     },
 
     docFooter: {
       prev: '上一页',
-      next: '下一页'
+      next: '下一页',
     },
 
     outline: {
       level: 'deep',
       label: '页面导航',
+    },
+
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        // @ts-ignore
+        dateStyle: 'short',
+        timeStyle: 'medium',
+      },
     },
 
     returnToTopLabel: '回到顶部',
@@ -126,7 +135,7 @@ function sidebarFrontEnd(): DefaultTheme.SidebarItem[] {
           ],
         },
       ]
-    }
+    },
   ];
 }
 
@@ -151,6 +160,6 @@ function sidebarBackEnd(): DefaultTheme.SidebarItem[] {
           items: [],
         },
       ],
-    }
+    },
   ];
 }
