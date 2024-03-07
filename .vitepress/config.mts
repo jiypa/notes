@@ -140,6 +140,23 @@ function sidebarFrontEnd(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarBackEnd(): DefaultTheme.SidebarItem[] {
+  const baseUrlOfBooks = '/technology/be/books';
+  const chapters = [
+    '01. 软件工程学概述',
+    '02. 可行性研究',
+    '03. 需求分析',
+    '04. 形式化说明技术',
+    '05. 总体设计',
+    '06. 详细设计',
+    '07. 实现',
+    '08. 维护',
+    '09. 面向对象方法学引论',
+    '10. 面向对象分析',
+    '11. 面向对象设计',
+    '12. 面向对象实现',
+    '13. 软件项目管理',
+  ];
+
   return [
     {
       text: '后端',
@@ -147,7 +164,15 @@ function sidebarBackEnd(): DefaultTheme.SidebarItem[] {
         {
           text: '书籍',
           collapsed: true,
-          items: [],
+          items: [
+            {
+              text: '软件工程导论',
+              collapsed: true,
+              items: chapters.map((chapter, index) => {
+                return { text: chapter, link: `${baseUrlOfBooks}/软件工程导论/chapter-${index < 9 ? `0${index + 1}` : index + 1}` };
+              }),
+            },
+          ],
         },
         {
           text: '视频',
