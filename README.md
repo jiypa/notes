@@ -3,14 +3,23 @@
     寄依的笔记本
 </h1>
 <p align="center">
-    📒 无笔记不学习，无复习不学习
+    📄 无笔记不学习，无复习不学习 📄
 </p>
+<div align="center">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/jiypa/notes?style=flat">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/jiypa/notes?style=flat">
+    <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/jiypa/notes?style=flat">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/jiypa/notes">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jiypa/notes">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/jiypa/notes">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jiypa/notes">
+</div>
 
-## 项目简介
+## 👋 项目简介
 
 学习中经常遇到一种情形：学了忘，忘了学，反反复复，耗时耗力。这绝不是学习该有的状态，故以此笔记本记录学习过程中所遇到的知识点，方便随时随地进行复习，提高学习效率。
 
-## 笔记特点
+## 💡 笔记特点
 
 **知识精准**：在阅读过程中通过对知识点的精准把握，将重点、难点、疑点一一攻破。
 
