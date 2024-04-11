@@ -1,4 +1,10 @@
-# 寄依的笔记本
+<p align="center"><img src="./public/images/logo.png" alt="寄依的笔记本"></p>
+<h1 align="center">
+    寄依的笔记本
+</h1>
+<p align="center">
+    📒 无笔记不学习，无复习不学习
+</p>
 
 ## 项目简介
 
