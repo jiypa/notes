@@ -1,4 +1,6 @@
-<p align="center"><img src="./public/images/logo.png" alt="寄依的笔记本"></p>
+<p align="center">
+    <img src="./public/images/logo.png" alt="寄依的笔记本">
+</p>
 <h1 align="center">
     寄依的笔记本
 </h1>
