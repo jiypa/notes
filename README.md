@@ -3,7 +3,7 @@
     寄依的笔记本
 </h1>
 <p align="center">
-    📄 无笔记不学习，无复习不学习 📄
+    📓 无笔记不学习，无复习不学习
 </p>
 <div align="center">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/jiypa/notes?style=flat">
