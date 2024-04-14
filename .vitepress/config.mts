@@ -38,7 +38,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/jiypa' },
+      { icon: 'github', link: 'https://github.com/jiypa/notes' },
     ],
 
     footer: {
