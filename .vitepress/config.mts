@@ -1,17 +1,27 @@
 import { defineConfig, type DefaultTheme } from 'vitepress';
+import mdItCustomAttrs from 'markdown-it-custom-attrs';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-Hans',
-  title: "寄依的笔记本",
-  description: "无笔记不学习，无复习不学习",
-  head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
+  title: '寄依的笔记本',
+  description: '无笔记不学习，无复习不学习',
+  head: [
+    ['link', { rel: 'icon', href: '/images/favicon.ico' }],
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css' }],
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js' }],
+  ],
   cleanUrls: true,
   markdown: {
     math: true,
     image: {
       // 开启图片懒加载
       lazyLoading: true,
+    },
+    config: (md) => {
+      md.use(mdItCustomAttrs, 'image', {
+        'data-fancybox': 'gallery',
+      });
     },
   },
 
