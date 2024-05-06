@@ -12,8 +12,6 @@
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/jiypa/notes?style=flat">
     <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/jiypa/notes?style=flat">
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/jiypa/notes">
-    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jiypa/notes">
-    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/jiypa/notes">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jiypa/notes">
 </div>
 
